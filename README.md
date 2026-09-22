@@ -11,10 +11,4 @@ Driven by curiosity and a mindset focused on:
 
 > **Doing what feels impossible.**
 
-<div align="left">
-  <img
-    src="sukuna-robot-animation/assets/sukuna-robot/sukuna-robot.gif"
-    alt="Animated Sukuna Robot mascot blinking and talking"
-    width="400"
-  />
-</div>
+
