@@ -178,7 +178,7 @@ def get_lines_of_code(repos):
             if r.status_code != 200:
                 break
             for entry in r.json() or []:
-                if entry.get("author", {}).get("login", "").lower() == USERNAME.lower():
+                if (entry.get("author") or {}).get("login", "").lower() == USERNAME.lower():
                     for week in entry.get("weeks", []):
                         additions += week.get("a", 0)
                         deletions += week.get("d", 0)
